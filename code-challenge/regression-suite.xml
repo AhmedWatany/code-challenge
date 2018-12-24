@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <parameter name="browser" value="chrome" />
+    <parameter name="url" value="https://www.tajawal.ae" />
+    <parameter name="driverName" value="chromedriver" />
+    <test name="RegressionTest">
+        <classes>
+            <class name="TajawalTest.TajawalTestSeleniumTestNG" />
+        </classes>
+    </test> <!-- RegressionTest -->
+</suite> <!-- Suite -->
